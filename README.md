@@ -1,0 +1,3 @@
+this craking tools for hash md5.
+
+Â–« «·«œ«…  Œ„‰ ⁄·Ï «·Â«‘ „‰ ·”   »«”Ê—œ« .
