@@ -1,3 +1,5 @@
+#!/usr/bin/env/python
+
 import hashlib
 import datetime
 import argparse
@@ -62,7 +64,11 @@ def main():
 		elif (number == 64) and args.types_of_hash == "blake2s" :
 			pass
 		else:
-			print("\n[ERROR] {} Is not {} hash".format(args.hash, args.types_of_hash))
+			print(
+				"\n[ERROR] {} Is not {} hash".format(
+					args.hash, args.types_of_hash
+				)	
+			)
 			exit(0)
 		datetime1 = datetime.datetime.now().replace(microsecond=0)
 		print("Start in {0}".format(datetime1))

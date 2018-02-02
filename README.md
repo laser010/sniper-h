@@ -15,13 +15,17 @@ sha3_512
 blake2b
 blake2s
 .
+# Requirements:
+
+python version 3.6.x visit for install :
+https://www.python.org/downloads/
 
 # Installation: 
 
 ```
 git clone https://github.com/laser010/sniper-h
 cd sniper-h
-python sniper-h.py -h
+python3 sniper-h.py -h
 ```
 
 # Example
