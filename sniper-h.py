@@ -27,10 +27,10 @@ def main():
 		parser = argparse.ArgumentParser(prog="sniper-h.py", add_help=True , usage=(
 		"sniper-h.py [-h] -H HASH [-w WORDLIST] [-m MATTRESSES] [-cns CHARACTERS,NUMBERS,SYMBOLS] -t TYPE"))
 		parser.add_argument("-H", dest="hash", required=True, help=": [-H] hash value")
-		parser.add_argument("-w", dest="word_list", help=": [-w] path word list")
+		parser.add_argument("-W", dest="word_list", help=": [-W] path word list")
 		parser.add_argument("-m", dest="mattresses", help=": [-m] 	Number of mattresses")
 		parser.add_argument("-cns", dest="characters_numbers_symbols", help=": [-cns] characters/numbers/symbols values")
-		parser.add_argument("-t", dest="types_of_hash", required=True, help=": [-t] Types of hash",
+		parser.add_argument("-T", dest="types_of_hash", required=True, help=": [-T] Types of hash",
 		choices=["md5","md4",
 		"sha1","sha224","sha256","sha512","sha384",
 		"sha3_224","sha3_256","sha3_384","sha3_512",
